@@ -404,9 +404,59 @@ color: #484A49;
         display:none;
     }
     .img-3-container{
-        margin-left: 4rem;
+        margin-left: 3rem;
+    }
+    
+    
+}
+@media(max-width:1286px){
+    .lorem-wrapper{
+        margin-top: 3rem;
+    }
+    .img-3-container{
+       margin-left:1rem; 
+    }
+  }
+@media(max-width:1255px){
+    .img-3-container{
+        width:auto;
+        margin-left:0rem;
+    }
+   .flex-container{
+    padding-top: 10rem;
+   }
+}
+
+@media(max-width:1166px){
+    .lorem-wrapper{
+        padding-left: 20rem;
+        margin-top: 2rem;
+    }
+    .second-sub-section-container{
+        margin-left: 10rem;
     }
 }
-@media(max-width:1115px){
-   
+@media(max-width:1099px){
+    .second-sub-section-container{
+        margin-left: 5rem;
+    }
+}
+@media(max-width:1090px){
+    .second-sub-section-container {
+        margin-top: 5rem;
+        justify-content: center;
+       }
+     .sub-image-wrapper{
+        display:none;
+     }
+    .footer{
+        padding: 0 5rem;
+    }
+}
+@media(max-width:1048px){
+    .lorem-wrapper{
+        padding-left: 15rem;
+        margin-top: 2rem;
+    }
+}
 
