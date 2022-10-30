@@ -441,4 +441,22 @@ color: #484A49;
         margin-left: 5rem;
     }
 }
+@media(max-width:1090px){
+    .second-sub-section-container {
+        margin-top: 5rem;
+        justify-content: center;
+       }
+     .sub-image-wrapper{
+        display:none;
+     }
+    .footer{
+        padding: 0 5rem;
+    }
+}
+@media(max-width:1048px){
+    .lorem-wrapper{
+        padding-left: 15rem;
+        margin-top: 2rem;
+    }
+}
 
