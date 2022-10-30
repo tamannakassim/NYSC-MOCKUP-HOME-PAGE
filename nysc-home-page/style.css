@@ -404,9 +404,12 @@ color: #484A49;
         display:none;
     }
     .img-3-container{
-        margin-left: 4rem;
+        margin-left: 3rem;
     }
+    
+    
 }
 @media(max-width:1115px){
    
 
+}
