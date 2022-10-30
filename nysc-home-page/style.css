@@ -409,7 +409,11 @@ color: #484A49;
     
     
 }
-@media(max-width:1115px){
-   
-
-}
+@media(max-width:1286px){
+    .lorem-wrapper{
+        margin-top: 3rem;
+    }
+    .img-3-container{
+       margin-left:1rem; 
+    }
+  }
