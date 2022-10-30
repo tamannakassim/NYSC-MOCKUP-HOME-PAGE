@@ -417,3 +417,28 @@ color: #484A49;
        margin-left:1rem; 
     }
   }
+@media(max-width:1255px){
+    .img-3-container{
+        width:auto;
+        margin-left:0rem;
+    }
+   .flex-container{
+    padding-top: 10rem;
+   }
+}
+
+@media(max-width:1166px){
+    .lorem-wrapper{
+        padding-left: 20rem;
+        margin-top: 2rem;
+    }
+    .second-sub-section-container{
+        margin-left: 10rem;
+    }
+}
+@media(max-width:1099px){
+    .second-sub-section-container{
+        margin-left: 5rem;
+    }
+}
+
