@@ -1,0 +1,234 @@
+/*image.png*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size:62.5%;
+}
+/*UTILITY CLASS*/
+.flex{
+    display:flex;
+}
+.break{
+    display:block;
+}
+.pl-s{
+    padding-left: 3.5rem;
+}
+/*END OF UTILITY CLASS*/
+body{
+    background-color: #192026;
+    color:#fff;
+    font-family:'Poppins', sans-serif;
+}
+.nav-section{
+    height:10vh;
+    justify-content: space-between;
+    align-items: baseline;
+    margin:1.5rem 2rem;
+}
+.logo{
+    font-weight: 700;
+    font-size:3.6rem;
+    letter-spacing: 0.2rem;
+    /*border: 0.1rem solid #000000;*/
+    text-shadow:  0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+}
+.nav-list{
+    list-style-type: none;
+    padding-left:1rem;
+    }
+.nav-item{
+    padding-right:10rem;
+    font-size:1.8rem;
+    letter-spacing: 0.2rem;
+} 
+.nav-link{
+    text-decoration: none;
+    color:#868686;
+    transition:color 1s;
+}   
+.nav-link:hover{
+    color:#fff;
+
+}
+.input-control{
+  background-color: #374151;
+  color:#868686;
+  border:none;
+  outline:none;
+  width:37.458rem;
+  height:4.8rem;
+  border-radius: 3.7rem;
+  padding-left: 1rem;
+  margin-right: 3rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+
+} 
+/*end of first section*/  
+.hero-section{
+    margin-top: 4rem;
+  margin-left:3.5rem;
+}
+.hero-heading{
+    font-size: 3.2rem;
+    font-size: 600;
+} 
+.hero-p{
+  color: #868686; 
+  font-size: 2.2rem;
+  font-weight: 400;
+  padding-top:0rem;
+}
+.pry-img-container{
+    background-image: url('/images/anime-index1.jpeg');
+    height: 40rem;
+    width: 117rem;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius:1.2rem;
+    margin-top:1rem;
+    position:relative;
+   }
+.bg-overlay{
+   /* position:absolute;
+    bottom:5rem;
+    left:2.5rem;*/
+    background-image: linear-gradient(to left,#1D1D1D00,#1D1D1DCC);
+    width:117rem;
+    height:40rem;
+    z-index: 3;
+} 
+.content-wrapper{
+    z-index:5;
+    padding-left: 4rem;
+    margin-top: -21rem;
+}
+.sub-heading{
+    font-weight: 600;
+    font-size:3.6rem;
+}
+.contents{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height:2.7rem;
+}
+/*NEW RELEASES SECTION*/
+.sub-heading{
+    padding-top:2rem;
+    padding-bottom:1rem;
+    font-size:3.6rem;
+    font-weight:600;
+}
+.grid-container{
+    margin-left:3.5rem;
+    margin-right: 10rem;
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+   
+}
+.img-overlay-container{
+    width:17rem;
+    height:25.384rem;   
+}
+.first-img{
+    grid-column: 1/2;
+    position:relative;
+    width:17rem;
+    height:25.384rem;
+    }
+    .img{
+        border-radius:1.2rem;
+        width:17rem;
+        height:25.384rem;
+    }
+.img-link{
+    text-decoration: none;
+    color:#fff ;
+}
+.overlay{
+    position:absolute;
+    bottom:0.01rem;
+    background-image: linear-gradient(to bottom,#1D1D1D00,#1D1D1DCC);
+    height:15.3rem;
+    width:17rem;
+  } 
+  .episode-no{
+    position:absolute;
+    bottom:0.5rem;
+    left:2rem;
+    font-size:1.6rem;
+    text-align: center;
+    z-index:4;
+  }
+  /*.ml-s{
+    left:3rem; 
+ }*/
+.second-img{
+    position:relative;
+    grid-column: 2/3;
+    width:17rem;
+    height:25.384rem;
+}
+.overlay-2{
+    position:absolute;
+    bottom: 0.01rem;
+    background-image: linear-gradient(to bottom,#1D1D1D00,#1D1D1DCC);
+    height:15.3rem;
+    width:17rem;
+}
+.third-img{
+    grid-column:3/4;
+    position: relative;
+    width:17rem;
+    height:25.384rem;
+}
+
+.fourth-img{
+    grid-column: 4/5;
+    position: relative;
+    width:17rem;
+    height:25.384rem;
+}
+.fifth-img{
+    grid-column: 5/6;
+    position: relative;
+    width:17rem;
+    height:25.384rem;
+}
+.sixth-img{
+    grid-column: 6/7;
+    position: relative;
+    width:17rem;
+    height:25.384rem;
+}
+.anime-title{
+    font-size: 1.6rem;
+}
+.one{
+    padding-left:3rem;
+}
+.two{
+    padding-left:2rem;
+}
+.three{
+    padding-left:2.5rem;
+}
+.four{
+    padding-left:3.5rem;
+}
+.five{
+    padding-left:5rem;
+}
+.six{
+    padding-left:4rem;
+}
+.footer{
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top:10rem;
+}
