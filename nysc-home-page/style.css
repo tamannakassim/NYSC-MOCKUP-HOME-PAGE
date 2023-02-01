@@ -544,7 +544,37 @@ color: #484A49;
     font-size: 3.5rem;
     letter-spacing: 0.1rem;
   }
+  .image-content-container{
+    display:none;
+  }
 }
-@media(max-width:500px){
+@media(max-width:543px){
+.first-section{
+    background-image: none;
+}
+.lorem-heading{
+    display:block;
+    color:#023906;
+}
+
+.logo-para{
+    color:#023906;
+}
+.menu-icon{
+    color: #023906;
+    margin-right:-4rem;
+}
+.lorem-img-wrapper{
+    display:none;
+}
+.second-sub-section-container{
+    margin-top:-25rem;
+}
+.flex-container{
+    grid-template-columns: repeat(1,1fr);
+}
+.right{
+    width:20rem;
+}
 
 }
