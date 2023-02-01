@@ -26,7 +26,7 @@ body{
 }
 /*END OF UTILITY CLASS*/
 .first-section{
-    background-image: url('/nysc-project-images/first-section-bg.png');
+    background-image: url('/nysc-home-page/nysc-project-images/first-section-bg.png');
     height:100vh;
     background-repeat: none;
     background-position:center;
@@ -153,7 +153,7 @@ body{
  /*END OF SECTION ONE*/
 
 .img-3-container{
-    background-image: url('/nysc-project-images/section-2-bg-image.png');
+    background-image: url('/nysc-home-page/nysc-project-images/section-2-bg-image.png');
     background-position: center;
     background-size: contain;
     background-repeat:no-repeat;
@@ -325,7 +325,7 @@ color: #484A49;
     color: #484A49;
 }
 .footer{
-    background-image: url('/nysc-project-images/footer-bg.png');
+    background-image: url('/nysc-home-page/nysc-project-images/footer-bg.png');
     background-position: center;
     width:100%;
     height:8rem;
@@ -544,4 +544,7 @@ color: #484A49;
     font-size: 3.5rem;
     letter-spacing: 0.1rem;
   }
+}
+@media(max-width:500px){
+
 }
