@@ -26,7 +26,7 @@ body{
 }
 /*END OF UTILITY CLASS*/
 .first-section{
-    background-image: url('/nysc-home-page/nysc-project-images/first-section-bg.png');
+    background-image: url('/nysc-project-images/first-section-bg.png');
     height:100vh;
     background-repeat: none;
     background-position:center;
@@ -61,6 +61,8 @@ body{
     display:flex;
     list-style-type: none;
 }
+/*hide is to hide application of remobilization in desktop view*/
+
 .nav-item{
     padding-right:6rem;
 }
@@ -153,7 +155,7 @@ body{
  /*END OF SECTION ONE*/
 
 .img-3-container{
-    background-image: url('/nysc-home-page/nysc-project-images/section-2-bg-image.png');
+    background-image: url('/nysc-project-images/section-2-bg-image.png');
     background-position: center;
     background-size: contain;
     background-repeat:no-repeat;
@@ -325,7 +327,7 @@ color: #484A49;
     color: #484A49;
 }
 .footer{
-    background-image: url('/nysc-home-page/nysc-project-images/footer-bg.png');
+    background-image: url('/nysc-project-images/footer-bg.png');
     background-position: center;
     width:100%;
     height:8rem;
@@ -350,7 +352,7 @@ color: #484A49;
     .nav-list{
         width:100%;
         height: 100vh;
-        background-color: #2C513D;
+        background-color:#023906;
         flex-direction: column;
         align-items: center;
         position:absolute;
@@ -371,6 +373,9 @@ color: #484A49;
         display:block;
     }
     .show{
+        display:block;
+    }
+    .hide{
         display:block;
     }
     .inline{
@@ -564,7 +569,7 @@ color: #484A49;
     color: #023906;
     margin-right:-4rem;
 }
-.lorem-img-wrapper{
+.login-link-wrapper{
     display:none;
 }
 .second-sub-section-container{
@@ -577,4 +582,71 @@ color: #484A49;
     width:20rem;
 }
 
+}
+@media (max-width:444px){
+.logo-container{
+    margin-left:-3rem;
+}
+.logo-para{
+    display:none;
+}
+}
+@media (max-width:430px){
+  .lorem-heading{
+    margin-top: 2rem;
+    margin-left: -4rem;
+  }
+.second-sub-section-container{
+    margin-top:-67rem;
+}
+  .utilities-wrapper{
+    row-gap: 4rem;
+    margin-right:5rem;
+  }
+  .third-section{
+    margin-top: 6rem;
+  }
+}
+@media (max-width:414px){
+ .second-sub-section-container{
+    margin-top: -63rem;
+ }
+}
+@media (max-width:393px){
+    .second-sub-section-container{
+        margin-top:-57rem;
+    }
+    .footer{
+        height: 12rem;
+    }  
+}
+@media (max-width:378px){
+    .second-sub-section-container{
+        margin-top:-42rem ;
+    }
+    .third-section{
+        margin-left: 1rem;
+    }
+   
+}
+@media (max-width:290px){
+    .lorem-heading{
+        font-size: 2.5rem;
+        margin-left:-6rem;
+    }
+    .second-sub-section-container{
+        margin-top:-40rem ;
+    }
+    .left{
+        width:10rem;
+    }
+    .right{
+        width:13rem;
+    }
+    .size{
+        border:none;
+    }
+    .footer{
+        height:15rem;
+    }
 }
